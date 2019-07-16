@@ -1,0 +1,7 @@
+{
+  "note1": "Do not run npm install here! Run it in the subdirectory.",
+  "note2": "Gatsby cli refuses to run unless a package.json has a gatsby dependency",
+  "dependencies": {
+    "gatsby": "^2.13.23"
+  }
+}
