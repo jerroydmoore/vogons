@@ -1,11 +1,11 @@
 {
   "name": "vogons",
   "private": true,
-  "version": "0.0.1",
-  "description": "A bueraucratic program to manage your images",
+  "version": "1.0.0",
+  "description": "A bueraucratic program to manage your photo images",
   "keywords": [
     "albums",
-    "images",
+    "photos",
     "management"
   ],
   "homepage": "https://github.com/jerroydmoore/vogons",
