@@ -1,0 +1,30 @@
+{
+  "name": "vogons",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A bueraucratic program to manage your images",
+  "keywords": [
+    "albums",
+    "images",
+    "management"
+  ],
+  "homepage": "https://github.com/jerroydmoore/vogons",
+  "issues": "https://github.com/jerroydmoore/vogons/issues",
+  "license": "LGPL-3.0-only",
+  "author": "Jerroyd Moore <jerroydmoore@gmail.com> (https://jerroyd.com)",
+  "repository": "github:jerroydmoore/vogons",
+  "engines": {
+    "node": ">=10.16"
+  },
+  "scripts": {
+    "start": "echo \"Hello Vogons!\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
