@@ -1,11 +1,13 @@
 {
-  "note1": "Do not run npm install here! Run it in the subdirectory.",
-  "note2": "Gatsby cli refuses to run unless a package.json has a gatsby dependency",
-  "note3": "eslint reports import/no-extraneous-deps if deps are not listed here",
+  "name": "ui",
+  "version": "1.0.0",
 
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.13.23",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6"
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6"
   }
 }
