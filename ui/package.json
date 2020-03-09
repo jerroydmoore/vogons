@@ -1,8 +1,8 @@
 {
   "name": "ui",
   "version": "1.0.0",
-
   "dependencies": {
+    "axios": "axios@0.17.1",
     "bootstrap": "^4.3.1",
     "gatsby": "^2.13.23",
     "prop-types": "^15.7.2",

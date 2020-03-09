@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react"
-import { useStaticQuery, graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 
 import { Card, CardColumns } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,19 +9,10 @@ import axios from "axios";
 
 import styles from "./AlbumList.module.css";
 
+import { servicesUri } from "../../utils";
+
 const IndexPage = () => {
   const [albums, setAlbums] = useState(undefined);
-  const data = useStaticQuery(graphql`
-    query apiServer {
-      site {
-        siteMetadata {
-          servicesUri
-        }
-      }
-    }
-  `);
-  const servicesUri = data.site.siteMetadata.servicesUri;
-
   if(albums === undefined) {
     console.log('setting albums ' + albums);
     axios.get(servicesUri + '/api/v1/albums').then(({ data }) => {
