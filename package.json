@@ -2,7 +2,10 @@
   "name": "vogons",
   "private": true,
   "version": "1.0.0",
-  "workspaces": ["ui", "services"],
+  "workspaces": [
+    "ui",
+    "services"
+  ],
   "description": "A bueraucratic program to manage your photo images",
   "keywords": [
     "albums",
